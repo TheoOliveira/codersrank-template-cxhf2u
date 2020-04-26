@@ -1,0 +1,27 @@
+
+
+div{
+  border: 2px solid black;
+  background-color: blue;
+}
+.box1 {
+  float:left;
+  width: 50%;
+}
+.box2 {
+  float:left;
+  width: 20%;
+}
+
+
+.box3 {
+  float:left;
+  width: 20%;
+}
+
+@media (max-width: 600px){
+  .box1,.box2,.box3 {
+    width: 100%;
+    height: auto;
+  }
+}
