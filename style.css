@@ -3,24 +3,41 @@
 div{
   border: 2px solid black;
   background-color: blue;
+  margin: 20px;
 }
 .box1 {
   float:left;
-  width: 50%;
+  width: 20%;
 }
 .box2 {
   float:left;
   width: 20%;
 }
-
+img {
+  max-width:100%;
+  height: auto;
+  margin: 0 auto;
+  
+}
 
 .box3 {
   float:left;
   width: 20%;
 }
+.box4 {
+  float:left;
+  width: 20%;
+}
+.box5 {
+  float:left;
+  width: 20%;
+}.box6 {
+  float:left;
+  width: 20%;
+}
 
 @media (max-width: 600px){
-  .box1,.box2,.box3 {
+  .box1,.box2,.box3,.box4,.box5, .box6 {
     width: 100%;
     height: auto;
   }
